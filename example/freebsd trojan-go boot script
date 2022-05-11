@@ -1,10 +1,10 @@
-> this is a freebsd boot script 
-> file name 'trojan-go'
-> path : `/usr/local/etc/rc.d`
+# this is a freebsd boot script 
+# file name 'trojan-go'
+# path : `/usr/local/etc/rc.d`
 
-> Code
+# Code
 
-```
+
 #!/bin/sh
 
 # PROVIDE: trojan_go
@@ -42,11 +42,11 @@ trojan_go_startprecmd() {
 
 load_rc_config "$name"
 run_rc_command "$1" 
-```
 
-> how to use?
-1. autostart service `service trojan-go enable`
-2. start service `service trojan-go start`
-3. stop service `service trojan-go stop`
+
+# how to use?
+# 1. autostart service `service trojan-go enable`
+# 2. start service `service trojan-go start`
+# 3. stop service `service trojan-go stop`
 
    
